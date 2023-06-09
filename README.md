@@ -11,6 +11,8 @@ React + Express.js app for converting docx file into LaTeX files using docx2tex 
 
 `git clone https://github.com/abaynk/d2l.git`
 
+`cd d2l`
+
 `npm install`
 
 `npm start`
