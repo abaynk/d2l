@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dropzone-div {
+  text-align: center;
+  padding: 20px;
+  border: 3px purple dashed;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 60%;
+  margin: auto;
+}
+
+.convert-button {
+  margin-top: 20px;
+}
+
+.contents-div {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 60vh;
+  overflow: scroll;
+}
+.contents-heading {
+  user-select: none;
+}
+.contents-line {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.contents-line-text {
+  line-height: 14px;
+  margin: 0 !important;
+  color: rgba(0, 157, 255, 1);
+  white-space: nowrap;
+}
+.contents-line-number {
+  display: inline;
+  user-select: none;
+}
+
+.buttons-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}

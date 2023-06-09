@@ -1,0 +1,16 @@
+{
+  "name": "nistest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "concurrently \"cd server && npm i\" \"cd front && yarn\" ",
+    "start": "concurrently \"cd server && npm start\" \"cd front && yarn dev\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
