@@ -15,4 +15,6 @@ React + Express.js app for converting docx file into LaTeX files using docx2tex 
 
 `npm install`
 
+>Before running please make sure that port 3000 and port 5173 are not in use, so that server and the frontend can run on them successfully
+
 `npm start`
